@@ -10,7 +10,7 @@
           </ul>
  */
 const hrefLink = ["index.html", "#mu-about-us", "#mu-restaurant-menu", "#mu-reservation", "#mu-gallery", "#mu-chef", "#mu-contact"];
-const imeLink = ["HOME", "ABOUT US", "MENU", "RESERVATION", "GALLERY", "OUR CHEFS", "CONTACT"];
+const imeLink = ["HOME", "ABOUT US", "MENU", "RESERVATION", "GALLERY", "OUR STAFF", "CONTACT"];
 let navBar = document.getElementById("navbar");
 let navList = `<ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">`;
     for (let i = 0; i < hrefLink.length; i++) {      
